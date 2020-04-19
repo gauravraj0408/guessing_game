@@ -12,7 +12,7 @@ try:
             pass
         elif num > 18:
             print(" Your Guess is High\n")
-        elif num < 18 and num > 15:
+        elif num < 18 and num >= 15:
             print(" Your Guess is Low\n")
         elif num < 15:
             print(" Your Guess is too Low\n")
